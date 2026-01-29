@@ -16,4 +16,3 @@ jobs:
         uses: Ilshidur/action-discord@master
         with:
           args: The repository **[${{ github.repository }}](${{ github.server_url }}/${{ github.repository }})** has been updated.
-
