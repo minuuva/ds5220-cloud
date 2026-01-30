@@ -1,5 +1,7 @@
 # Lab: EC2 Instance Management and IAM Roles
 
+> **Report any bugs!** If you identify a resolvable error or bug in these instructions, please notify the instructor OR fork this repository, fix the bug(s), and submit a Pull Request. Communities make software better.
+
 ## Learning Objectives
 By the end of this lab, you will be able to:
 - Launch and configure EC2 instances with appropriate security groups
@@ -204,7 +206,7 @@ By the end of this lab, you will be able to:
 
 3. Install the AWS CLI on the instance:
    ```bash
-   sudo apt install awscli
+   sudo snap install aws-cli --classic
    ```
 
 4. Verify AWS CLI is installed correctly and the IAM role is working:
